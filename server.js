@@ -10,7 +10,7 @@ const port = 2727; // Port number
 // Define a sample endpoint
 app.get('/api/example', (req, res) => {
   // Respond with a JSON object
-  res.json({ message: `This is an example API endpoint Created by ${package.author}!`});
+  res.json({ message: `This is an example API endpoint Created by ${package.author}!` });
 });
 
 // Start the server
